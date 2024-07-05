@@ -5,7 +5,6 @@
 		<Platforms>AnyCPU</Platforms>
 
 		<Title>海康威视SDK</Title>
-		<PackageProjectUrl>https://github.com/cocaine-coder/hknet.git</PackageProjectUrl>
 		<Description>海康威视SDK .Net版本封装，该包需要Runtime依赖如：HK.Net.Runtime.Win64</Description>
 
 		<IsWindows Condition="'$([System.Runtime.InteropServices.RuntimeInformation]::IsOSPlatform($([System.Runtime.InteropServices.OSPlatform]::Windows)))' == 'true'">true</IsWindows>

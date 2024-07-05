@@ -28,6 +28,18 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HK.Net.Test.Win64.Net8", "t
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HK.Net.Core", "src\HK.Net.Core\HK.Net.Core.csproj", "{5E19BDFD-139A-4239-B7E9-F3A8052657D2}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{E55D270F-A3F6-4A42-8C1D-4217B66940C7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{733B769F-E514-48EE-BAD3-E4DCB3A73873}"
+	ProjectSection(SolutionItems) = preProject
+		.github\workflows\publish-to-nuget.yml = .github\workflows\publish-to-nuget.yml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "doc", "doc", "{BC532A8A-68CB-466C-9CC3-A2219D3B4C59}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -160,6 +172,7 @@ Global
 		{7584CB81-B2FB-405A-84AD-1A27D2D9D4CF} = {062424DA-3435-41E8-8070-CE3DEC61D108}
 		{508A96E1-7CA8-408A-BB37-12FF77E24884} = {062424DA-3435-41E8-8070-CE3DEC61D108}
 		{5E19BDFD-139A-4239-B7E9-F3A8052657D2} = {1C53FB52-EB33-435D-A90D-AA1A4F06A9C1}
+		{733B769F-E514-48EE-BAD3-E4DCB3A73873} = {E55D270F-A3F6-4A42-8C1D-4217B66940C7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {648BB991-24EC-47A3-AEC0-D0995D0B6DA6}
