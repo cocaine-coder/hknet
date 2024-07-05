@@ -1,6 +1,9 @@
 name: Publish Nuget Package
 
-on: push
+on:
+  push:
+    tags:
+      - v*
 
 jobs:
   deploy:
@@ -21,7 +24,7 @@ jobs:
         run: dotnet build -c Release
 
       - name: Publish To Nuget
-        run: dotnet nuget push output/*.nupkg -k $NUGET_AUTH_TOKEN -s https://api.nuget.org/v3/index.json
+        run: dotnet nuget push output\*.nupkg -k $NUGET_AUTH_TOKEN -s https://api.nuget.org/v3/index.json
         env:
           NUGET_AUTH_TOKEN: ${{ secrets.NUGET_API_KEY }}
 
