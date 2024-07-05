@@ -4,6 +4,7 @@
 		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
 		<PackageIcon>logo.png</PackageIcon>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<PackageOutputPath>..\..\output</PackageOutputPath>
 		<Authors>CocaineCoder</Authors>
 		<RepositoryType>git</RepositoryType>
 		<RepositoryUrl>https://github.com/cocaine-coder/hknet.git</RepositoryUrl>
