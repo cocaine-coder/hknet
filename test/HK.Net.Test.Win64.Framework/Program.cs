@@ -1,4 +1,5 @@
 ﻿using System;
+using HK.Net.Core;
 
 namespace HK.Net.Win64.Framework.Test
 {

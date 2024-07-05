@@ -1,7 +1,7 @@
 using System;
 using System.Runtime.InteropServices;
 
-namespace HK.Net
+namespace HK.Net.Core
 {
 	/// <summary>
 	/// CHCNetSDK 的摘要说明。

@@ -70,13 +70,13 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\src\HK.Net.Core\HK.Net.Core.csproj">
+      <Project>{5e19bdfd-139a-4239-b7e9-f3a8052657d2}</Project>
+      <Name>HK.Net.Core</Name>
+    </ProjectReference>
     <ProjectReference Include="..\..\src\HK.Net.Runtime.Win32\HK.Net.Runtime.Win32.csproj">
       <Project>{f677d2e6-8c2a-4e48-b662-74f8954500ad}</Project>
       <Name>HK.Net.Runtime.Win32</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\src\HK.Net\HK.Net.csproj">
-      <Project>{f580a7a3-2371-4c4b-939b-57143d79672b}</Project>
-      <Name>HK.Net</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
