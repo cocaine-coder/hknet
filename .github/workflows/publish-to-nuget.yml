@@ -1,13 +1,10 @@
 name: Publish Nuget Package
 
-on:
-  push:
-    tags:
-      - v*
+on: push
 
 jobs:
   deploy:
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
     steps:
       - uses: actions/checkout@v2
 
