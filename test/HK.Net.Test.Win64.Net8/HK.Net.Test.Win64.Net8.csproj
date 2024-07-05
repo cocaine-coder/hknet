@@ -9,7 +9,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\HK.Net.Win64\HK.Net.Win64.csproj" />
+    <ProjectReference Include="..\..\src\HK.Net.Runtime.Win64\HK.Net.Runtime.Win64.csproj" />
     <ProjectReference Include="..\..\src\HK.Net\HK.Net.csproj" />
   </ItemGroup>
 

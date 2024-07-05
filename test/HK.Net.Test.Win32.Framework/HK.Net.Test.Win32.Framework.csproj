@@ -70,9 +70,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\src\HK.Net.Win32\HK.Net.Win32.csproj">
-      <Project>{0f3f1812-d99d-4824-a26d-e76725cb6499}</Project>
-      <Name>HK.Net.Win32</Name>
+    <ProjectReference Include="..\..\src\HK.Net.Runtime.Win32\HK.Net.Runtime.Win32.csproj">
+      <Project>{f677d2e6-8c2a-4e48-b662-74f8954500ad}</Project>
+      <Name>HK.Net.Runtime.Win32</Name>
     </ProjectReference>
     <ProjectReference Include="..\..\src\HK.Net\HK.Net.csproj">
       <Project>{f580a7a3-2371-4c4b-939b-57143d79672b}</Project>
