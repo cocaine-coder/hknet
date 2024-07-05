@@ -8,6 +8,7 @@
 	<ItemGroup>
 		<None Update=".\**">
 			<Pack>true</Pack>
+			<PackagePath>runtimes/linux-x64/native</PackagePath>
 			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 		</None>
 	</ItemGroup>

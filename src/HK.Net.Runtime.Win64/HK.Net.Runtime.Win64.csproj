@@ -9,6 +9,7 @@
 	<ItemGroup>
 		<None Update=".\**">
 			<Pack>true</Pack>
+			<PackagePath>runtimes/win-x64/native</PackagePath>
 			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 		</None>
 	</ItemGroup>
